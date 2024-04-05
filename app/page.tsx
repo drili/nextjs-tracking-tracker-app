@@ -8,7 +8,7 @@ export default function Home() {
 			</span>
 
 			<span>
-				<h2>Table of clients</h2>
+				<h2>Table of clients </h2>
 			</span>
 		</main>
 	);
