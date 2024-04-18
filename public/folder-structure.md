@@ -1,21 +1,26 @@
 app
-|
-+-- assets            
-|
-+-- components        
-|
-+-- config          
-|
-+-- hooks             
-|
-+-- lib               
-|
-+-- routes            
-|
-+-- types             
-|
-+-- utils    
-
+    |
+    +-- assets            
+    |
+    +-- components        
+    |
+    +-- config          
+    |
+    +-- hooks             
+    |
+    +-- lib               
+    |
+    +-- routes            
+    |
+    +-- types             
+    |
+    +-- utils
+    page.tsx
+    layout.tsx
+    global.css
+components
+lib
+public
 ---
 
 components: Shared components that grace the entire kingdom
