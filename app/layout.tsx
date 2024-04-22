@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
+
 import "./globals.css";
+import Navbar from "./components/layout/Navbar";
 
 const fontStyle = Nunito({
 	weight: ['200', '400', '800', '1000'],
@@ -19,7 +21,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={fontStyle.className}>{children}</body>
+			<body className={fontStyle.className}>
+				<Navbar logoText="NextJS Tracking Tracker"/>
+				{children}
+			</body>
 		</html>
 	);
 }
